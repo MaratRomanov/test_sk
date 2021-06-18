@@ -1,0 +1,10 @@
+export const name_input = (payload) => ({type: 'NAME_INPUT', payload});
+export const phone_input = (payload) => ({type: 'PHONE_INPUT', payload});
+export const email_input = (payload) => ({type: 'EMAIL_INPUT', payload});
+export const profile_input = (payload) => ({type: 'PROFILE_INPUT', payload});
+export const сity_input = (payload) => ({type: 'СITY_INPUT', payload});
+export const organisationName_input = (payload) => ({type: 'ORGANISATION_INPUT', payload});
+export const recipient_input = (payload) => ({type: 'RECIPIENT_INPUT', payload});
+export const howDidKnow = (payload) => ({type: 'HOW_KNOW_INPUT', payload});
+export const submit = () => ({type: 'SUBMIT'});
+export const clear = () => ({type: 'CLEAR_FORM'});
